@@ -49,12 +49,11 @@ If you're stumped as to what `end`, and `flush` are, they are actually parameter
 ![print(*values: object, sep: Optional[Text]=..., file: Optional[_Writer]=..., flush: bool=...) -> None](https://storage.googleapis.com/replit/images/1623958494856_21cabdf7e060682043683b0933acc4af.png)
 
 These parameters are actually optional, so you won't need to put them to use the `print` function.
-We put the `end` parameter there without anything in the quotation marks to indicate there is no end, so it keeps on printing from the line before, and `flush`, I honestly dont understand it still. 
+We put the `end` parameter there without anything in the quotation marks to indicate there is no end, so it keeps on printing from the line before, and `flush`, I'll explain it right here:
 
-EDIT: `flush` is when you print something to the console text gets built up over time, but the new text isn't constantly rendered on the screen, instead its regularly "flushed" to the screen.
+`flush` is when you print something to the console text gets built up over time, but the new text isn't constantly rendered on the screen, instead its regularly "flushed" to the screen.
 But `printt()` prints stuff to the console faster than it can render text, so by putting `flush = True` in your print statement you're forcing it to render the text in time.
 
-Thanks to [@Dunce](https://replit.com/@Dunce) for heling me out for `flush`
 
 
 The `sleep()` function is from the `time` module, and is used to "pause" the code for a few seconds. Here, `sleep()` "pauses" the program for 0.05 seconds.
