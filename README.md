@@ -78,17 +78,10 @@ def printt(string, delay):
   print('')
   # Not Inside the for loop, or it will mess the program
 ```
-## AND WE ARE DONE!
+### AND WE ARE DONE!
 
 That's it. I know its simple, but it's worth it as it makes the program less "dull"
 ***
 
-Please check out my [Racing Simulator](https://replit.com/talk/share/Racing-Sim/141553)
 
-***
-
-> Please give me more ideas on what to code, I don't have no more ideas.
-
-***
-
-# That's it for this Tutorial and see you in my next post; Bye!
+### Hope you find this useful
